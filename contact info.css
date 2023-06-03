@@ -1,0 +1,107 @@
+body{
+    background-image: url(valeriia-bugaiova-_pPHgeHz1uk-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top{
+    margin-left: 15px;
+    height: 60px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign{
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    padding-right: 50px;
+
+
+}
+
+.hoversign{
+
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    height: 15px;
+    padding: 10px;
+}
+.hoversign1{
+
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    height: 15px;
+    padding: 15px;
+    font-size: 2rem;
+}
+
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-color: rgba(47, 38, 38, 0.7);
+    text-align: center;
+    position: fixed;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+    border: solid 2px rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 20x;
+    width: 480px;
+    height: 400px;
+    line-height: 40px;
+}
+
+.i{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    word-spacing: 30px;
+    color: white;
+    text-shadow: 2px 2px  black;
+}
+
+
+.close{
+    margin-right: 30px;
+    color: white;
+    font-size: 20px;
+    text-decoration-line: none;
+    border-radius: 7px;
+    background-color: blue;
+    padding: 5px;
+    
+}
+.login{
+    
+}
+
+#Firstname,#Lastname,#Email,#contact,#message{
+    height:30px;
+    border-radius:5px ;
+}
+#Email{
+    width:300px;
+}
+
+p{
+    font-size: 20px;
+}
+a{
+    text-decoration-line: none;
+    
+}
